@@ -1,0 +1,7 @@
+---
+applications:
+- name: convertorApp
+  host: convertorApp
+  memory: 1024M
+  instances: 1
+  path: target/convertorApp-0.0.1-SNAPSHOT.jar
