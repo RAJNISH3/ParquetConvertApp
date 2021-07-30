@@ -61,8 +61,8 @@ public class AwsClientImpl {
 
     public AmazonS3 buildAmazonS3Client() {
 
-        String accessKeyId = "AKIA4VUBKMI7GQWP3EAN";
-        String secretAccessKey = "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";
+        String accessKeyId = "<acessKeyId>";
+        String secretAccessKey = "<secretKey>";
         return AmazonS3ClientBuilder.standard().withRegion(Regions.EU_CENTRAL_1)
                 .withCredentials(
                     new AWSStaticCredentialsProvider(new BasicAWSCredentials(
